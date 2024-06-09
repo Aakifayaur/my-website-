@@ -17,8 +17,23 @@ body {
     margin-bottom: 20px;
 }
 
+#additionalText {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
 #clickButton {
-    padding: 10px 20px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
     font-size: 16px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.2; /* Adjust this if the text is not vertically centered */
 }
