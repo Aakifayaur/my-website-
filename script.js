@@ -30,6 +30,7 @@ document.getElementById('clickButton').addEventListener('click', function() {
         currentTotal += 1000;
         setLastClickTime(new Date().getTime());
         updateDisplayText();
+        document.getElementById('additionalText').textContent = 'Wait.. you actually did it?? erm goodjob ig is that what im supposed to say? anyways.. Thanks for contributing in donations! Your donation is appreciated by Rattusya Official Hospital (ROH).';
     } else {
         alert('You can only click the button once per day.');
     }
