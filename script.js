@@ -1,4 +1,4 @@
-let currentTotal = 1000;
+let currentTotal = 0;
 const maxTotal = 230000;
 const storageKey = 'lastClickTime';
 
